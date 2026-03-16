@@ -1,0 +1,26 @@
+<template>
+  <div>
+    <v-card class="ma-5" title="Feeds" subtitle="Feeds that ingest data into HuntZone.">
+      <task-list
+        task-type="feed"
+        :display-columns="['name', 'frequency', 'last_run', 'description', 'status', 'toggle', 'refresh']"
+      >
+      </task-list>
+    </v-card>
+  </div>
+</template>
+
+<script lang="ts" setup>
+import TaskList from "@/components/TaskList.vue";
+</script>
+
+<script lang="ts">
+export default {
+  name: "FeedList",
+  components: {
+    TaskList
+  }
+};
+</script>
+
+<style scoped></style>
