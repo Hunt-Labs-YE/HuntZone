@@ -57,7 +57,7 @@ export default createVuetify({
       VTreeviewItem
     },
     VApp: {
-      style: 'font-family: "Orbitron", sans-serif;'
+      style: 'font-family: "Exo 2", sans-serif;'
     },
     VCombobox: {
       variant: "outlined"
